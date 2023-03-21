@@ -1,0 +1,118 @@
+body {
+background-color: #000;
+color: #fff;
+font-family: sans-serif;
+}
+
+form input{
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid white;
+    outline: none;
+}
+
+.Parent{
+    background: #2F5985;
+    height: 85vh;
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 8%;
+    padding: 10px; 
+}
+.Parent footer{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.Parent .Main-header{
+    text-align: center;
+    /* margin-top: 20px; */
+}
+.container{
+    /* border: 1px solid green; */
+    display: flex;
+    height: 400px;
+    margin: 50px;
+
+    /* margin: auto; */
+    
+}
+.Login{
+    /* border: 1px solid red ; */
+    background:url("../img/istockphoto.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 50%;
+    text-align: center;
+    font-size: large;
+    font-family: sans-serif;
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+
+
+.Registration{
+    /* border: 1px solid white; */
+    background:url("../img/istockphoto.jpg");
+    width: 50%;
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 10px;
+}
+.Login input {
+text-align: center;
+color: #fff;
+width: 70%;
+margin: 20px;
+
+}
+
+.Login input::placeholder {
+    text-align: center;
+    color: #fff;
+    
+    }
+
+.Login button{
+border: none;
+background-color: #2F5985;
+color: #fff;
+padding: 10px 70px 10px 70px;
+border-radius: 15px;
+}
+.facebook button{
+border: none;
+background-color: #2F5985;
+float: left;
+margin-left: 8%;
+}
+.google button{
+    border: none;
+    background-color: red;
+    float: right;
+    margin-right: 8%;
+}
+
+.Registration input{
+text-align: center;
+color: #fff;
+width: 70%;
+margin: 12px;
+}
+
+.Registration input::placeholder{
+ color: #fff;
+}
+
+.Registration button{
+ border: none;
+ background-color: #2F5985;
+ color: #fff;
+ padding: 8px 65px 8px 65px;
+ border-radius: 15px;   
+}
